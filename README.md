@@ -4,7 +4,7 @@ I did this code challenge on february 2013 for the last step/interview in TopTal
 
 
 
-#API RESPONSE / GENERAL
+# API RESPONSE / GENERAL
 
 API call will result a “success” message when performed successfully a change on the D,B. or an “error” message if there was a problem while doing the transaction. The element data in the response will contain null in case of an error or a specific message if the call was performed successfully.
 
@@ -15,7 +15,7 @@ ERROR API RESPONSE EXAMPLE:
 {"HResponse":{"code":200,"message":"Error","data":null}}
 
 
-#LOG IN / OUT VIA API
+# LOG IN / OUT VIA API
 
 1 – LOGIN
 
@@ -28,7 +28,7 @@ PARAMETERS: string email(“josue@webstreaming.com.ar”),  string password(“j
 EXAMPLE CALL:  /api/todo/loginApp?email=josue@webstreaming.com.ar&password=josuepass
 
 
-#2 – LOGOUT
+# 2 – LOGOUT
 
 CALL METHOD: GET
 
@@ -39,10 +39,10 @@ PARAMETERS: -
 EXAMPLE CALL:  /api/todo/logoutApp
 
 
-##TASK MANAGING API CALLS
+## TASK MANAGING API CALLS
 
 
-#1 – GET SORTED TASK LIST
+# 1 – GET SORTED TASK LIST
 
 CALL METHOD: GET
 
@@ -58,7 +58,7 @@ EXAMPLE RESPONSE:
 
 
 
-#2 – DELETE TASK 
+# 2 – DELETE TASK 
 
 CALL METHOD: DELETE
 
@@ -73,7 +73,7 @@ EXAMPLE RESPONSE:
 {"HResponse":{"code":200,"message":"Success","data":"80"}}
 
 
-#3 –ADD NEW TASK 
+# 3 –ADD NEW TASK 
 
 CALL METHOD: PUT
 
@@ -89,7 +89,7 @@ EXAMPLE RESPONSE:
 
 
 
-#4 – CHANGE TASK STATUS 
+# 4 – CHANGE TASK STATUS 
 
 CALL METHOD: POST
 
@@ -104,7 +104,7 @@ EXAMPLE RESPONSE:
 {"HResponse":{"code":200,"message":"Success","data":"0"}}
 
 
-#5 – CHANGE TASK PRIORITY
+# 5 – CHANGE TASK PRIORITY
 
 CALL METHOD: POST
 
@@ -120,7 +120,7 @@ EXAMPLE RESPONSE:
 
 
 
-#6 –CHANGE TASK NAME / TITLE
+# 6 –CHANGE TASK NAME / TITLE
 
 CALL METHOD: POST
 
@@ -136,7 +136,7 @@ EXAMPLE RESPONSE:
 
 
 
-#7 –CHANGE TASK DUE DATE
+# 7 –CHANGE TASK DUE DATE
 
 CALL METHOD: POST
 
